@@ -1,0 +1,68 @@
+
+@font-face {
+    font-family: 'Monofonto';
+    src: url('fonts/monofonto rg.otf') format('opentype');
+    
+}
+
+  * {
+    box-sizing: border-box;
+    font-family: 'Monofonto';
+    list-style-type: none;
+    font-size: 30px;
+    text-decoration: none;
+    
+  }
+
+  body {
+    background-image:url('/imgs/ranger1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+ }
+
+  ol li, a {
+    color: #ffb742;
+    text-shadow: -0px -0px 4px black;
+    padding: 10px;
+    text-align: end;
+  }
+  
+  ol li:hover {
+    border-style: solid;
+    border-width: 2px;
+    width: 15em;
+    padding: 8px;
+    /* background-color: #A16600; */
+    background-color: #a166004b;
+  }
+ 
+  div {
+    display: flex; 
+    justify-content: flex-end;
+    margin-top: 11em;
+    margin-right: 20px;
+
+  }
+
+  .menu-title {
+    width: 25em;
+    height: 6em;
+    margin-right: auto;
+    margin-top: 6em;
+    margin-left: 7em;
+
+    /* margin-top: 8%; */
+    /* margin-left: 10%; */
+
+    /* margin-top: 170px; */
+    /* margin-left: 200px; */
+
+    
+  }
+
+  @media (max-width: 1429px) {
+    body {
+      background-size: 
+    } 
+  }
